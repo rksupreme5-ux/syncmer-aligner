@@ -1,0 +1,15 @@
+{
+  "name": "syncmer-aligner",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "syncmer_aligner_bg.wasm",
+    "syncmer_aligner.js",
+    "syncmer_aligner.d.ts"
+  ],
+  "main": "syncmer_aligner.js",
+  "types": "syncmer_aligner.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
